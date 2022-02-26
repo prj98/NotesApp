@@ -1,0 +1,23 @@
+.header {
+  background-color: teal;
+  display: flex;
+}
+
+.logo {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 10px;
+  width: 120px;
+  height: 90px;
+  opacity: 0.6;
+}
+
+.headertitle {
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+  color: rgb(231, 179, 179);
+  font-weight: 900;
+  font-size: 52px;
+  text-shadow: -2px 7px 7px black;
+}

@@ -1,0 +1,46 @@
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 2px 5px 2px black;
+  border-radius: 10px;
+  width: 750px;
+}
+
+.textarea {
+  margin: 10px 0px;
+  height: 150px;
+  width: 700px;
+  border: none;
+  font-size: 22px;
+  resize: none;
+  outline: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.inputtitle {
+  margin: 10px 0px;
+  height: 50px;
+  width: 700px;
+  border: none;
+  font-size: 30px;
+  font-weight: 900;
+  outline: none;
+  border-bottom: 3px solid gray;
+  text-transform: capitalize;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  width: 700px;
+}

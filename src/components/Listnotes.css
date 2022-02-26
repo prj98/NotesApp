@@ -1,0 +1,36 @@
+.list {
+  margin: 20px 20px;
+  padding: 0px 20px;
+  width: 335px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px 2px rgb(104, 9, 9);
+}
+
+.listitle {
+  font-size: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: capitalize;
+}
+
+.yournote {
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: 70px;
+  overflow-y: auto;
+}
+
+.notebtn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.editbtn,
+.deletebtn {
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

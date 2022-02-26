@@ -1,0 +1,5 @@
+.alllist {
+  padding: 0px 90px;
+  display: flex;
+  flex-wrap: wrap;
+}
